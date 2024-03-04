@@ -7,6 +7,8 @@ const TelegramLogin = () => {
 
   const handleTelegramResponse = (response) => {
     if (response && response.phone_number) {
+
+      console.log(response);
       setUser(response);
       setError(null);
     } else {
