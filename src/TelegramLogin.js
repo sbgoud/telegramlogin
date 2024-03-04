@@ -19,7 +19,7 @@ const TelegramLogin = () => {
 
   return (
     <div>
-      <h1>Welcome to WebApp</h1>
+      <h1>Welcome to telegram login WebApp</h1>
       {!user ? (
         <TelegramLoginButton
           dataOnauth={handleTelegramResponse}
