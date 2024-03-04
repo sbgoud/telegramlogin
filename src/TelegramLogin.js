@@ -9,6 +9,7 @@ const TelegramLogin = () => {
     if (response && response.phone_number) {
 
       console.log(response);
+      window.location.href = 'https://www.google.com';
       setUser(response);
       setError(null);
     } else {
